@@ -33,12 +33,8 @@ public class Player : MonoBehaviour
     {
         Rotate();
 
-        Vector3 nowScale = new Vector3(1, 1, 1);
-        if (Input.GetKey(KeyCode.LeftControl)) transform.localScale = new Vector3(1, 0.5f, 1);
-        transform.localScale = nowScale;
-
         speed = 3;
-        if (Input.GetKey(KeyCode.LeftShift)) speed = 9;
+        if (Input.GetKey(KeyCode.LeftShift)) speed = 5;
     }
 
     private void Rotate()
