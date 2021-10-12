@@ -1,0 +1,131 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1237; Version 2009; 64bit' Language: 'ru' Physical Memory: 7103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/NewProject/Perfomans
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56649
+Successfully changed project path to: D:/UnityProjects/NewProject/Perfomans
+D:/UnityProjects/NewProject/Perfomans
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 166.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/NewProject/Perfomans/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     3551 MB
+    Driver:   26.20.11030.22001
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.466227 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 272.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.088 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.153117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.928 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1185 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 2.219800 ms (FindLiveObjects: 0.286700 ms CreateObjectMapping: 0.064800 ms MarkObjects: 1.742900 ms  DeleteObjects: 0.123900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Green.terrainlayer
+  artifactKey: Guid(4d0ead10a6a639e4382da2223a83200f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Green.terrainlayer using Guid(4d0ead10a6a639e4382da2223a83200f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3025233c5f64f9e81f5c5a6124d2c27b') in 0.138944 seconds
+  Import took 0.145496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(f271eb0057f021c40a6cc5e191bb9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(f271eb0057f021c40a6cc5e191bb9526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3bf3f27bcdad790c512e187c3e527b') in 0.072316 seconds
+  Import took 0.076557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(f79be7880908a4d47bdbbd6846d069c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(f79be7880908a4d47bdbbd6846d069c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43066f820c33df384ed219f0c00921f') in 0.057965 seconds
+  Import took 0.062613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(7290f3ae7d700ed4ca28438b01f7a666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(7290f3ae7d700ed4ca28438b01f7a666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type0 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Rock Type4 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'e5f10aef372b619b9e908194880d578d') in 0.076581 seconds
+  Import took 0.080923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Sky3.mat
+  artifactKey: Guid(52999afaddb70924d9c1bbd5643ad4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sky3.mat using Guid(52999afaddb70924d9c1bbd5643ad4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038cd8027efc883824002f1f8e90f4e5') in 0.093582 seconds
+  Import took 0.097688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(39bde19bdd6849543b13a9dbd88e9b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(39bde19bdd6849543b13a9dbd88e9b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type0 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '89659a06a33194c4929e8654a7c6b9a5') in 0.055326 seconds
+  Import took 0.060213 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
